@@ -1,3 +1,5 @@
+
+
 /* nav */
 .ms_nav{
     padding: 0;
@@ -8,15 +10,39 @@
 }
 
 /* buy */
-#buy-ete{
-    background-image: url(img/jumbo-bg.png);
+#buy-ete, #buy-itt{
     height:700px;
     max-height: 700px;
     background-position: center;
     background-repeat: no-repeat;
 }
 
+#buy-ete{
+    background-image: url(img/jumbo-bg.png);
+}
+
+#buy-itt{
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+}
+
 /* thumbnails */
 .ms_thumb-radius{
     border-radius: 10px;
+}
+
+/* overview btn */
+.ms_over-btm{
+    border: none ;
+}
+
+.ms_over-btm:hover{
+    border-bottom: 1px solid;
+}
+
+.ms_over-bimg{
+    filter: opacity(0.5);
+}
+
+.ms_over-bimg:hover{
+    filter:opacity(1);
 }
