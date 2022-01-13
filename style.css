@@ -19,10 +19,12 @@
 
 #buy-ete{
     background-image: url(img/jumbo-bg.png);
+    background-position: center;
 }
 
 #buy-itt{
     background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+    background-size:cover;
 }
 
 /* thumbnails */
