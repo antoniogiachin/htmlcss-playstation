@@ -1,7 +1,17 @@
+/* nav */
 .ms_nav{
     padding: 0;
 }
 
 .ms_nav-font{
     font-size: 0.8rem;
+}
+
+/* buy */
+#buy-ete{
+    background-image: url(img/jumbo-bg.png);
+    height:700px;
+    max-height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
