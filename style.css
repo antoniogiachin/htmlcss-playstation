@@ -38,7 +38,7 @@
 }
 
 .ms_over-btm:hover{
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #0C6EFE;
 }
 
 .ms_over-bimg{
@@ -47,4 +47,9 @@
 
 .ms_over-bimg:hover{
     filter:opacity(1);
+}
+
+/* new */
+.ms_new-img{
+    border-radius: 15px;
 }
