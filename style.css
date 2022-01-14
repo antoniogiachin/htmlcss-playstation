@@ -53,3 +53,22 @@
 .ms_new-img{
     border-radius: 15px;
 }
+
+/* explore */
+#explore-plus{
+
+    background-color: #BEBCBB;
+    width: 100%;
+    height: 400px;
+    min-height: 400px;
+}
+
+/* ms query */
+@media screen and (min-width:768px) {
+    #explore-plus{
+        background-image: url(img/ps-plus-april-monthly-games-featured-image-block.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-x: right;
+    }
+}
