@@ -9,8 +9,17 @@ body{
     border: 1px solid transparent;
 }
 
+.ms_btn-hoverable-2{
+    padding: 2px;
+    border: 1px solid transparent;
+}
+
 .ms_btn-hoverable:hover{
     border: 1px solid #222;
+}
+
+.ms_btn-hoverable-2:hover{
+    border: 1px solid #fff;
 }
 
 /* nav */
