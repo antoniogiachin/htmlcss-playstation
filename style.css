@@ -55,7 +55,7 @@
 }
 
 /* explore */
-#explore-plus{
+#explore-plus, #explore-now{
     width: 100%;
     height: 400px;
     min-height: 400px;
@@ -65,12 +65,23 @@
     background-color: #BEBCBB;
 }
 
+#explore-now{
+    background-color: #161C3B;
+}
+
 /* ms query */
 @media screen and (min-width:768px) {
-    #explore-plus{
-        background-image: url(img/ps-plus-april-monthly-games-featured-image-block.png);
+    #explore-plus, #explore-now{
         background-size: contain;
         background-repeat: no-repeat;
         background-position-x: right;
+    }
+
+    #explore-plus{
+        background-image: url(img/ps-plus-april-monthly-games-featured-image-block.png);
+    }
+
+    #explore-now{
+        background-image: url(img/ps-now-april-featured-image-block.png);
     }
 }
