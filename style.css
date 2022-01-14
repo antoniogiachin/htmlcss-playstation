@@ -42,6 +42,20 @@ body{
 .ms_chevron-down{
     width: 10px;
 }
+
+.ms_dropdown-img{
+    mix-blend-mode: multiply;
+    width: 80%;
+}
+
+.ms_dropdown-a{
+    text-decoration: none;
+    color:#222
+}
+
+.ms_dropdown-a:hover{
+    text-decoration: underline;
+}
 /* buy */
 #buy-ete, #buy-itt{
     height:800px;
