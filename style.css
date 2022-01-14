@@ -3,6 +3,16 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* btn style */
+.ms_btn-hoverable{
+    padding: 2px;
+    border: 1px solid transparent;
+}
+
+.ms_btn-hoverable:hover{
+    border: 1px solid #222;
+}
+
 /* nav */
 .ms_nav{
     padding: 0;
