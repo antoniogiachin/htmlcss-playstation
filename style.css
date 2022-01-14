@@ -22,7 +22,11 @@ body{
     border: 1px solid #fff;
 }
 
-/* nav */
+/* header */
+.ms_header-top-logo{
+    width: 5em;
+}
+
 .ms_nav{
     padding: 0;
 }
@@ -31,10 +35,18 @@ body{
     font-size: 0.8rem;
 }
 
+.dropdown-toggle::after{
+    display: none;
+}
+
+.ms_chevron-down{
+    width: 10px;
+}
 /* buy */
 #buy-ete, #buy-itt{
-    height:700px;
-    max-height: 700px;
+    height:800px;
+    max-height: 800px;
+    padding-bottom: 3rem;
     background-position: center;
     background-repeat: no-repeat;
 }
