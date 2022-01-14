@@ -72,6 +72,30 @@ body{
     background-color: #161C3B;
 }
 
+/* footer */
+footer{
+    background-color: #01439C;
+}
+
+.ms_foo-span{
+    font-size: 0.8em;
+}
+
+.ms_foo-list{
+    list-style-type: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+
+
 /* ms query */
 @media screen and (min-width:768px) {
     #explore-plus, #explore-now{
