@@ -78,11 +78,11 @@ body{
 
 /* thumbnails */
 #thumbnails .col{
-    transition: all 1s;
+    transition: all 0.8s;
 }
 
 #thumbnails .col:hover{
-    margin: 0;
+    margin-top: 10px;
 }
 
 .ms_thumb-link{
@@ -99,6 +99,7 @@ body{
     filter: opacity(0.8);
     filter: sepia(0.2);
     border: 2px solid #222;
+    box-shadow: 3px 3px 3px #222;
     padding: 2px;
 }
 
