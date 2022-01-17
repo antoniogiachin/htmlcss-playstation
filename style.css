@@ -104,11 +104,19 @@ body{
 }
 
 /* overview btn */
-.ms_over-btm{
-    border: none ;
+.ms_link-static-over{
+    border-bottom: 1px solid #0C6EFE;
+    height: 100%;
+    text-decoration: none;
 }
 
-.ms_over-btm:hover{
+.ms_over-link{
+    text-decoration: none;
+    height: 100%;
+    border-bottom: 1px solid transparent;
+}
+
+.ms_over-link:hover{
     border-bottom: 1px solid #0C6EFE;
 }
 
@@ -118,6 +126,10 @@ body{
 
 .ms_over-bimg:hover{
     filter:opacity(1);
+}
+
+.ms_overview-txt{
+    font-size: 0.8em;
 }
 
 /* new */
