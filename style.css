@@ -39,8 +39,25 @@ body{
     display: none;
 }
 
+.ms_dropdown-toggle{
+    gap: 2px;
+}
+
 .ms_chevron-down{
     width: 10px;
+}
+
+.ms_chevron-down-hover{
+    width: 10px;
+    display: none;
+}
+
+.nav-link.dropdown-toggle:hover .ms_chevron-down-hover{
+    display: block;
+}
+
+.nav-link.dropdown-toggle:hover .ms_chevron-down{
+    display: none;
 }
 
 .ms_dropdown-img{
