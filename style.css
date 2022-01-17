@@ -54,6 +54,7 @@ body{
 
 .nav-link.dropdown-toggle:hover .ms_chevron-down-hover{
     display: block;
+    transform: rotate(180deg);
 }
 
 .nav-link.dropdown-toggle:hover .ms_chevron-down{
